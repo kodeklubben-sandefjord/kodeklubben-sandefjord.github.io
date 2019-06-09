@@ -16,4 +16,4 @@ view model =
 
 
 main =
-    view "dummy model"
+    view "model"
