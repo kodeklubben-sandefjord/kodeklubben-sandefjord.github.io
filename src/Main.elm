@@ -1,22 +1,47 @@
-module Main exposing (..)
+module Main exposing (main)
 
 import Browser
-import Html exposing (..)
-import Html.Attributes exposing (..)
+import Html exposing (Html, button, div, text)
+import Html.Events exposing (onClick)
 
-main =
-  Browser.sandbox { init = 0, update = update, view = view }
 
+type alias Model =
+    { count : Int }
+
+
+initialModel : Model
+initialModel =
+    { count = 0 }
+
+
+type Msg
+    = Increment
+    | Decrement
+
+
+update : Msg -> Model -> Model
 update msg model =
-    model
+    case msg of
+        Increment ->
+            { model | count = model.count + 1 }
 
+        Decrement ->
+            { model | count = model.count - 1 }
+
+
+view : Model -> Html Msg
 view model =
-    div [ class "jumbotron" ]
-        [ h1 [] [ text "Velkommen til Kodeklubben Sandefjord" ]
-        , p []
-            [ text "Lær kidsa koding"
-            , strong [] [ text "kodeklubben-sandefjord.github.io" ]
-            , text "kidsakoder.no"
-            ]
+    div []
+        [ button [ onClick Increment ] [ text "+1" ]
+        , div [] [ text <| String.fromInt model.count ]
+        , button [ onClick Decrement ] [ text "-1" ]
         ]
 
+
+main : Program () Model Msg
+main =
+    Browser.sandbox
+        { init = initialModel
+        , view = view
+        , update = update
+        }
