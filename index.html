@@ -1,34 +1,14 @@
-<!DOCTYPE HTML>
-<!-- TODO: UPGRADE THIS FILE TO ELM 0.19 -->
 <html>
 <head>
+<title>Kodeklubben Sandefjord</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css">
 </head>
 <body>
-  <script src="elm.js"></script>
+  <main></main>
   <script>
-    var isTodos = function(todos) {
-      return Array.isArray(todos) && todos.every(function(todo) {
-        return (
-          !!todo &&
-          typeof todo.id === 'number' &&
-          typeof todo.text === 'string' &&
-          typeof todo.completed === 'boolean'
-        );
-      });
-    };
-    var todosDefault = function(todos) {
-      return isTodos(todos) ? todos : [];
-    };
-    var app = Elm.Main.init({
-      flags : {
-        todos: todosDefault(JSON.parse(localStorage.todos || '[]'))
-      }
-    });
-    app.ports.saveTodos.subscribe(function(todos) {
-      localStorage.todos = JSON.stringify(todos);
-    });
+    var app = Elm.Main.init({ node: document.querySelector('main') })
+    // you can use ports and stuff here
   </script>
 </body>
 </html>
