@@ -1,8 +1,14 @@
 module Main exposing (..)
 
+import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
+main =
+  Browser.sandbox { init = 0, update = update, view = view }
+
+update msg model =
+    model
 
 view model =
     div [ class "jumbotron" ]
@@ -14,6 +20,3 @@ view model =
             ]
         ]
 
-
-main =
-    view "model"
