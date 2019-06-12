@@ -1,4 +1,4 @@
 import Html exposing (text)
 
 main =
-    text "Hello Sandefjord"
+    text "Hello Kodeklubben Sandefjord"
