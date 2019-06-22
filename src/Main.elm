@@ -71,12 +71,4 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-  case model of
-    Failure ->
-      text "I was unable to load your book."
-
-    Loading ->
-      text "Loading..."
-
-    Success fullText ->
-      pre [] [ text fullText ]
+  div [][]
