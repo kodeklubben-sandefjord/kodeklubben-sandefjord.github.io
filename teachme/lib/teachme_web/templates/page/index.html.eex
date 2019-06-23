@@ -1,0 +1,78 @@
+<section class="phx-hero">
+  <h1><%= gettext "Velkommen til %{name}!", name: " LKK Sandefjord" %></h1>
+  <p>Lær Kidsa Koding! er en frivillig bevegelse som arbeider for at barn og unge skal lære å forstå og beherske sin egen rolle i det digitale samfunnet. Vi vil hjelpe de unge til å ikke bare bli brukere, men også skapere med teknologien som verktøy. I tillegg til å øke den allmenne forståelsen av informasjonsteknologi, ønsker vi å bidra til rekrutteringen til IT-yrkene og realfagene. En viktig del av vår virksomhet er å arbeide for at alle unge i skolealder får mulighet til å lære programmering og bli kjent med informatikk som fag.</p>
+
+
+
+</section>
+
+<section>
+<h2>Verdigrunnlag</h2>
+<p>
+<ul>
+
+    <li>Vi har en positiv og konstruktiv holdning til myndigheter og andre aktører.</li>
+    <li>Vi legger vekt på å ha et raust og konstruktivt miljø. I meningsutvekslinger skal vi holde oss til saklig argumentasjon.</li>
+    <li>Vi er nøytrale når det gjelder partipolitkk og valg av plattform og teknologi.</li>
+    <li>Vi er deltagere i det samme prosjektet, som privatpersoner og ikke som representanter for organisasjonen vi tilhører, men vi bringer perspektiver fra våre respektive miljøer.</li>
+    <li>Vi er opptatt av likestilling og like muligheter, derfor ønsker vi å være et reelt tilbud til alle.</li>
+</ul>
+</p>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Kodeklubbens verdier</h2>
+    <ul>
+      <li>
+        Kodeklubben er <strong>for alle</strong>
+      </li>
+      <li>
+        Kodeklubben er <strong>gratis</strong>
+      </li>
+      <li>
+        Kodeklubben er <strong>kreativ</strong>
+      </li>
+      <li>
+        Kodeklubben er <strong>gøy!</strong>
+      </li>
+      <li>
+        Kodeklubben er <strong>åpen og inkluderende</strong>
+      </li>
+    </ul>
+  </article>
+  <article class="column">
+    <h2>Notater til verdiene</h2>
+    <ul>
+      <li>
+
+
+  Kodeklubben har mangfold som en av sine verdier (“Kodeklubben er for alle”). Det betyr at alle skal få bli med. Mangfoldet må også gjelde de frivillige. Alle barn trenger å se både kvinnelige og mannlige frivillige for å lære at koding ikke kun utføres av en bestemt gruppe i samfunnet.
+      </li>
+      <li>
+        Mangfoldet gjelder også i sosiale lag. Vi må ikke være med på å skape et digitalt klasseskille. Det er greit å ta litt betaling om det ikke er andre måter å drive klubben på, men prøv å gjøre det så billig som mulig. Server vann og tørre kjeks, finn gratis lokaler og kutt ut dingser og reklamemateriell hvis du ikke kan finne sponsorer i nærmiljøet.
+      </li>
+      <li>
+        Prøv å ikke gi barna “roller” a la “dere bråkegutter” eller “dere snille jenter”. Barn tar de rollene de får, og straks er kodeklubben med på å sementere de rollene. Forhold dere til barna som enkeltindivider. Lær navna så fort du kan, og bruk de!
+      </li>
+      <li>
+Kodeklubben er ikke en skole. Ikke alle barn er klar til å lære veldig mye i løpet av en kveld. Ta hensyn til det og prøv å være åpen for tull og tøys i tillegg til alt annet.
+      </li>
+      <li>
+      Følg Kodeklubbens <a href="https://docs.google.com/document/d/1q97QSfNJz8ISY7IWCWXGPAhZPjuW4I53aaaLK6Bisy0/edit?usp=sharing">Code of Conduct – Etiske retningslinjer</a>
+      </li>
+    </ul>
+
+  </article>
+</section>
+
+<section class="phx-hero">
+<h2>Organisiering</h2>
+<p>
+LKK er et nettverk for alle i Norge som er opptatt av verdien av å lære barn IT, og LKK skal være en arena for samspill, engasjement og lokale muligheter. Gjennom LKK skal de lokale ildsjelene og det lokale engasjementet styrkes og omsettes i konkrete aktiviteter og tilbud. LKK bistår de lokale aktivitetene og arrangørene som feks. lokale Kodeklubber. LKK verken styrer eller regulerer de lokale initiativene.
+
+LKK arbeider for å utvikle lærestoff og undervisningsopplegg på flere nivå og for et mangfold av teknologi.
+
+LKK et løst organisert frivillig nettverk av av lokale grupper, privatpersoner, myndigheter, skoler og bedrifter som kan hjelpe hverandre på tvers av landet. LKK er summen av de aktivitetene som til en hver tid foregår rundt i landet.
+</p>
+</section>
